@@ -38,6 +38,7 @@ A CNN layer consists of:
 - A nonlinearity $\sigma$
 
 Thus,
+
 $$
 y = \sigma(K * x + b)
 $$
@@ -45,14 +46,17 @@ $$
 ---
 
 **Definition.** A CNN layer is a function
+
 $$
 f(x) = \sigma(K * x + b)
 $$
+
 where $K$ is a convolution kernel.
 
 ---
 
 **Proposition.** Two CNN layers compose as:
+
 $$
 f_2(f_1(x)) = \sigma_2(K_2 * \sigma_1(K_1 * x + b_1) + b_2)
 $$
@@ -78,6 +82,7 @@ State the goal clearly. Use inline math like $f(x) = x^2$ when it fits naturally
 ## 2. Preliminaries
 
 **Definition 2.1.** A function $f : \mathbb{R} \to \mathbb{R}$ is continuous if for all $\epsilon > 0$ there exists $\delta > 0$ such that
+
 $$
 |x - y| < \delta \implies |f(x) - f(y)| < \epsilon.
 $$
@@ -91,9 +96,11 @@ $$
 **Theorem 3.1.** Let $f$ be continuous on $[a,b]$. Then $f$ is integrable.
 
 **Proof.** Since $f$ is continuous on a compact set, it is bounded. Hence the integral
+
 $$
 \int_a^b f(x)\,dx
 $$
+
 exists. $\square$
 
 ---
@@ -115,11 +122,13 @@ $$
 ## 5. Key Example
 
 A CNN layer can be written as:
+
 $$
 y = \sigma(K * x + b)
 $$
 
 A composition of two layers gives:
+
 $$
 y = \sigma_2\big(K_2 * \sigma_1(K_1 * x + b_1) + b_2\big)
 $$
