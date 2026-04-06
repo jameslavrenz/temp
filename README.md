@@ -10,3 +10,10 @@ $$
 $$
 
 exists. $\square$
+
+$$
+\begin{aligned}
+y &= Wx + b \\
+  &= W_2(W_1 x + b_1) + b_2
+\end{aligned}
+$$
