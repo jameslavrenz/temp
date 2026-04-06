@@ -7,4 +7,5 @@ Let $g:[0,1]^d$ be any L-Lipschitz function. Then for any error $\epsilon \gt 0$
 $$
 \int_a^b f(x)\,dx
 $$
+
 exists. $\square$
