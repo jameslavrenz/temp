@@ -197,3 +197,19 @@ Summarize briefly or leave clean.
 **Proof.** Let $f : Y \to Z$ and $g : X \to Y$ be continuous. For any open $U \subseteq Z$, $f^{-1}(U)$ is open in $Y$, and hence $g^{-1}(f^{-1}(U))$ is open in $X$. Thus $(f \circ g)^{-1}(U)$ is open, so $f \circ g$ is continuous. $\square$
 
 We may write this explicitly as $(f \circ g)(x) = f(g(x))$, which preserves limits and topological structure.
+
+\mathbf{x}, \mathbf{W}
+x^\top
+\begin{bmatrix}
+a & b \\
+c & d
+\end{bmatrix}
+
+$$
+y = \sigma(\mathbf{W}x + b)
+$$
+
+$$
+\mathcal{L} = \frac{1}{n} \sum_{i=1}^n (y_i - \hat{y}_i)^2
+$$
+
