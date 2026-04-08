@@ -191,3 +191,9 @@ A function $f : X \to Y$ is continuous if for every open set $U \subseteq Y$, th
 ## 12. Ending
 
 Summarize briefly or leave clean.
+
+**Proposition.** A composition of continuous functions is continuous.
+
+**Proof.** Let $f : Y \to Z$ and $g : X \to Y$ be continuous. For any open $U \subseteq Z$, $f^{-1}(U)$ is open in $Y$, and hence $g^{-1}(f^{-1}(U))$ is open in $X$. Thus $(f \circ g)^{-1}(U)$ is open, so $f \circ g$ is continuous. $\square$
+
+We may write this explicitly as $(f \circ g)(x) = f(g(x))$, which preserves limits and topological structure.
