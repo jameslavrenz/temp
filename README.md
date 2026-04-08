@@ -198,12 +198,15 @@ Summarize briefly or leave clean.
 
 We may write this explicitly as $(f \circ g)(x) = f(g(x))$, which preserves limits and topological structure.
 
-\mathbf{x}, \mathbf{W}
-x^\top
+$\mathbf{x}, \mathbf{W}$
+$x^\top$
+
+$$
 \begin{bmatrix}
 a & b \\
 c & d
 \end{bmatrix}
+$$
 
 $$
 y = \sigma(\mathbf{W}x + b)
