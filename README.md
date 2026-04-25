@@ -220,5 +220,6 @@ $$
 
 **Proposition.** An important property of open intervals. Let $a,b\in\mathbb{R}$ with $a<b$ given any $x\in(a,b),\, \exists r>0$ s.t. $(x-r,x+r)\subseteq (a,b).$
 
-**Proof.** Given $x\in(a,b)$ let $r=\text{min}\{b-x,x-a\}>0.$ Claim: $(x-r,x+r)\subseteq(a,b)$ Therefore, $r\le b-x$ and $r\le x-a.$ Let $y\in(x-r,x+r)$ so that $x-r<y<x+r.$ Since $r\le b-x$ it follows that $x+r\le b$. And since $r\le x-a$, $a\le x-r$. Therefore $a\le x-r<y<x+r\le b$. So $y\in(a,b).$ $\square$
+**Proof.** Given $x\in(a,b)$ let $r=\text{min}\lbrace b-x,x-a \rbrace>0.$ Claim: $(x-r,x+r)\subseteq(a,b)$. Therefore, $r\le b-x$ and $r\le x-a.$ Let $y\in(x-r,x+r)$ so that $x-r<y<x+r.$ Since $r\le b-x$ it follows that $x+r\le b$. And since $r\le x-a$, $a\le x-r$. Therefore $a\le x-r<y<x+r\le b$. So $y\in(a,b).$ $\square$
+
 
